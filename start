@@ -4,10 +4,10 @@
 _get_repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "LEGEND" ]]
+    if [[ $UPSTREAM_REPO == "DARKLONX" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORFhPUC9MRUdFTkQtQk9UL2FyY2hpdmUvbWFzdGVyLnppcA=='" | base64 -d
-    elif [[ $UPSTREAM_REPO == "LEGENDX" ]]
+    elif [[ $UPSTREAM_REPO == "DARKLONX" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORFhPUC9MRUdFTkQtQk9UL2FyY2hpdmUvbWFzdGVyLnppcA=='" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
@@ -26,7 +26,7 @@ _get_repolink () {
 
 _set_bot () {
     local zippath
-    zippath="legendbot.zip"
+    zippath="darklonx.zip"
     echo "  Downloading source code ..."
     wget -q $(_get_repolink) -O "$zippath"
     echo "  Unpacking Data ..."
@@ -37,20 +37,13 @@ _set_bot () {
     rm -rf "$zippath"
     sleep 5
     cd $CATPATH
-    echo "    Starting LEGENDBOT    "
+    echo "    Starting DARKLONBOT    "
     echo "
-                        LEGEND BOT IS RUNNING IS ON THE WAY
+                        DARKLON BOT IS RUNNING IS ON THE WAY
     "
 
     echo "
-    '##::::'##::'######::'########:'########::'########:::'#######::'########:
-     ##:::: ##:'##... ##: ##.....:: ##.... ##: ##.... ##:'##.... ##:... ##..::
-     ##:::: ##: ##:::..:: ##::::::: ##:::: ##: ##:::: ##: ##:::: ##:::: ##::::
-     ##:::: ##:. ######:: ######::: ########:: ########:: ##:::: ##:::: ##::::
-     ##:::: ##::..... ##: ##...:::: ##.. ##::: ##.... ##: ##:::: ##:::: ##::::
-     ##:::: ##:'##::: ##: ##::::::: ##::. ##:: ##:::: ##: ##:::: ##:::: ##::::
-    . #######::. ######:: ########: ##:::. ##: ########::. #######::::: ##::::
-    :.......::::......:::........::..:::::..::........::::.......::::::..:::::
+    '
     "
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     python3 -m userbot
