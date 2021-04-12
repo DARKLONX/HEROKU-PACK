@@ -1,4 +1,4 @@
-FROM LEGENDXOP/LEGEND-BOT:alpine
+FROM DARKLONX/DARKLONX:alpine
 
 #clonning repo 
 RUN git clone https://github.com/DARKLONX/DARKLONX.git /root/userbot
