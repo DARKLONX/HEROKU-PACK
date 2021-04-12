@@ -1,7 +1,7 @@
 {
-  "name": "LEGEND BOT",
-  "description": "The best userbot made by @LEGENDX22. Made with Love And Phone And Hardwork and... Nhi aur kahi se to nhi bana....For Support Join @teamishere ",
-  "logo": "https://telegra.ph/file/a44f1363bddbba84a2b98.jpg",
+  "name": "DARKLON SUPER USER BOT",
+  "description": "The best userbot made by @DARKLONX. Made with Love And Phone And Hardwork and... Nhi aur kahi se to nhi bana....For Support Join @DARKLONX ",
+  "logo": "laptop se daalunga",
     "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/legendxop/LEGEND-BOT/",
-  "website": "https://github.com/legendxop/LEGEND-BOT/",
-  "success_url": "https://t.me/teamishere",
+  "repository": "https://github.com/DARKLONX/DARKLONX/",
+  "website": "https://github.com/DARKLONX/DARKLONX/",
+  "success_url": "https://t.me/DARKLONX",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
@@ -24,12 +24,12 @@
     },
     "F_BAN_LOGGER_GROUP": {
       "description": "Put Group id Same As PRIVATE_GROUP_ID.",
-      "value": "",
+      "value": "99999",
       "required": false
     },
     "BOT_NICK_NAME": {
       "description": "YOU CAN SET HERE YOUR BOT CUSTOM NAME LIKE PRO BOT SUPER BOT etc..",
-      "value": "",
+      "value": "DARKLON BOT",
       "required": false
     },
     "ALIVE_NAME": {
@@ -39,7 +39,7 @@
     },
     "ALIVE_MSG": {
       "description": "Set Custom awake Message When entering .awake command.",
-      "value": "",
+      "value": "DARKLON SUPER USERBOT",
       "required": false
     },
     "ALIVE_PHOTTO": {
@@ -49,7 +49,7 @@
     },
     "BIO_MSG": {
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "",
+      "value": "DARKLON USERBOT USER",
       "required": false
     },
     "PMPERMIT_PIC": {
@@ -64,7 +64,7 @@
     },
     "PM_PERMIT_GROUP_ID": {
       "description": "Put an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
-      "value": "",
+      "value": "99999",
       "required": false
     },
     "APP_ID": {
@@ -92,23 +92,23 @@
     },
     "PLUGIN_CHANNEL": {
       "description": "Create a private group add rose  then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": ""
+      "value": "99999"
     },
     "PRIVATE_GROUP_BOT_API_ID": {
       "description": "create a private channel and then type .get_id add that value here for save messages",
-      "value": ""
+      "value": "99999"
     },
     "FBAN_GROUP_ID": {
       "description": "Go to your group add rose bot type /id and paste here",
-      "value": ""
+      "value": "99999"
     },
     "PRIVATE_GROUP_ID": {
       "description": "Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": ""
+      "value": "99999"
     },
     "PM_LOGGR_BOT_API_ID": {
        "description": "for login private messages create a private channel and do .get_id and add that id", 
-       "value": ""
+       "value": "99999"
     }, 
     "STRING_SESSION": {
       "description": "Get this value by running https://repl.it/@legendx22/LEGEND-BOT#main.py ",
@@ -173,7 +173,7 @@
     },
     "EMOJI_TO_DISPLAY_IN_HELP": {
       "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "",
+      "value": "😍",
       "required": true
     }, 
     "TZ": {
