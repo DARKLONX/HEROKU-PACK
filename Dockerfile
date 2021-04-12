@@ -1,7 +1,7 @@
 FROM LEGENDXOP/LEGEND-BOT:alpine
 
 #clonning repo 
-RUN git clone https://github.com/LEGENDXOP/LEGEND-BOT.git /root/userbot
+RUN git clone https://github.com/DARKLONX/DARKLONX.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
