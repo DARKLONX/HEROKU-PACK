@@ -1,7 +1,7 @@
 {
   "name": "DARKLON SUPER USER BOT",
   "description": "The best userbot made by @DARKLONX. Made with Love And Phone And Hardwork and... Nhi aur kahi se to nhi bana....For Support Join @DARKLONX ",
-  "logo": "laptop se daalunga",
+  "logo": "https://telegra.ph/file/fff3f63dd795411428c7e.jpg",
     "keywords": [
     "telegram",
     "userbot",
@@ -44,7 +44,7 @@
     },
     "ALIVE_PHOTTO": {
       "description": "put here any telegraph media link use .awake to show.",
-      "value": "",
+      "value": "https://telegra.ph/file/fff3f63dd795411428c7e.jpg",
       "required": false
     },
     "BIO_MSG": {
@@ -54,12 +54,12 @@
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for pmpermit custom pic.",
-      "value": "",
+      "value": "https://telegra.ph/file/fff3f63dd795411428c7e.jpg",
       "required": true
     },
     "CUSTOM_PMPERMIT": {
       "description": "Your custom pm permit msg.",
-      "value": "",
+      "value": "https://telegra.ph/file/fff3f63dd795411428c7e.jpg",
       "required": false
     },
     "PM_PERMIT_GROUP_ID": {
